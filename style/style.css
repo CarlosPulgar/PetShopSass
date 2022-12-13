@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+}
+body .header1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 4rem;
+  background-color: #141414;
+  margin-top: 0;
+}
+body .header1 .oferta {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 12px;
+}
+body .header1 .option {
+  color: #f2f2f2;
+  background-color: #141414;
+  border: none;
+}
+body .header2 {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  background: #F0A83E;
+  flex-wrap: wrap;
+}
+body .header2 .logo {
+  margin-top: 2.5rem;
+  margin-left: 4rem;
+  scale: 1.4;
+}
+body .header2 i {
+  display: none;
+}
+body .header2 .nav {
+  display: flex;
+  list-style: none;
+  margin-top: 2.5rem;
+}
+body .header2 .nav .nav__li {
+  margin-right: 2.5rem;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+body .header2 .nav .nav__li:hover {
+  scale: 1.2;
+}
+body .header2 .nav .nav__li a {
+  text-decoration: none;
+  color: #f2f2f2;
+  padding: 0.5rem;
+}
+body .header2 .nav .nav__li a:hover {
+  color: #141414;
+}
+body main .banner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 45rem;
+}
+body main .banner .banner__text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+}
+body main .banner .text__banner {
+  background-color: #f2f2f2;
+  width: 27rem;
+  height: 3.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+}
+body main .banner .text__banner-1 {
+  align-self: center;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+body main .banner .boton__comederos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  align-self: center;
+  color: #f2f2f2;
+  background: #F0A83E;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+body main .banner .boton__comederos:hover {
+  scale: 1.2;
+  background-color: #f2f2f2;
+  color: #F0A83E;
+  font-weight: bold;
+  border: solid 0.5px #F0A83E;
+  box-shadow: 3px 6px 5px #f2861a;
+}
+body main .proDestacados {
+  text-align: center;
+  margin-top: 2rem;
+}
+body main .proDestacados .titulo {
+  font-size: 35px;
+}
+body main .proDestacados .lista {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  list-style-type: none;
+}
+body main .proDestacados .lista .list-item {
+  font-size: 20px;
+  margin: 2rem 1rem;
+}
+body main .proDestacados .lista .list-item .list_link {
+  text-decoration: none;
+  color: #141414;
+}
+body main .cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body main .cards .card {
+  margin: 3rem 5rem;
+}
+body main .cards .card:hover {
+  scale: 1.3;
+}
+body main .cards .card img {
+  width: 20rem;
+}
+body main .cards .card__name {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+body main .cards .card__price {
+  display: flex;
+  justify-content: center;
+  color: #F0A83E;
+  font-size: 22px;
+}
+body main .contacto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0rem;
+}
+body main .contacto .title__contacto {
+  margin-bottom: 2.5rem;
+  font-size: 30px;
+}
+body main .contacto .form_contactos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body main .contacto .input {
+  width: 30rem;
+  height: 40px;
+  background: #3C2313;
+  border-radius: 15px;
+  color: #f2f2f2;
+  padding-left: 1rem;
+}
+body main .contacto .input::-moz-placeholder {
+  color: #f2f2f2;
+}
+body main .contacto .input:-ms-input-placeholder {
+  color: #f2f2f2;
+}
+body main .contacto .input::placeholder {
+  color: #f2f2f2;
+}
+body main .contacto .btn__contacto {
+  width: 11rem;
+  height: 3rem;
+  margin: 1.5rem 0.5rem;
+  color: #f2f2f2;
+  background: #8A8787;
+  border-radius: 15px;
+  border: none;
+}
+body main .contacto .btn__contacto:hover {
+  scale: 1.1;
+}
+body main .contacto .btn__contacto.yellow {
+  background: #F0A83E;
+}
+body main .suscribe {
+  display: flex;
+  margin-top: 5rem;
+  background-color: #F0A83E;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main .suscribe .icon__suscribe {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  font-size: 20px;
+}
+body main .suscribe .icon__suscribe img {
+  margin-right: 1rem;
+  width: 70px;
+}
+body main .suscribe .suscribe__email {
+  display: flex;
+  margin-right: 1rem 5rem;
+  align-items: center;
+}
+body main .suscribe .suscribe__email .input__suscribe {
+  width: 17rem;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+}
+body main .suscribe .suscribe__email .input__suscribe::-moz-placeholder {
+  padding-left: 1rem;
+}
+body main .suscribe .suscribe__email .input__suscribe:-ms-input-placeholder {
+  padding-left: 1rem;
+}
+body main .suscribe .suscribe__email .input__suscribe::placeholder {
+  padding-left: 1rem;
+}
+body main .suscribe .suscribe__email .btn__suscribe {
+  width: 120px;
+  height: 35px;
+  background: #3C2313;
+  color: #f2f2f2;
+  border-radius: 15px;
+  margin: 1rem 0.5rem;
+  border: none;
+}
+body main .suscribe .suscribe__email .btn__suscribe:hover {
+  scale: 1.1;
+}
+body footer .container__footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3C2313;
+  padding: 2rem 4rem;
+  flex-wrap: wrap;
+}
+body footer .container__footer .ubicacion {
+  color: #f2f2f2;
+}
+body footer .container__footer .ubicacion .card__ubicacion {
+  display: flex;
+  margin-bottom: 2rem;
+}
+body footer .container__footer .ubicacion .card__ubicacion .texto__ubicacion {
+  margin: 1rem 3rem;
+}
+body footer .container__footer .ubicacion .card__ubicacion .texto__ubicacion p {
+  font-size: 10px;
+}
+body footer .container__footer .logo__footer {
+  align-self: center;
+  scale: 1.4;
+}
+body footer .footer__copyrigth {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  background-color: #141414;
+  color: #f2f2f2;
+}
+body footer .footer__copyrigth .iconos {
+  margin-left: 2rem;
+}
+body footer .footer__copyrigth .iconos a {
+  margin-left: 2rem;
+  color: #f2f2f2;
+}
+body footer .footer__copyrigth .iconos a i:hover {
+  scale: 2.5;
+  color: #F0A83E;
+}
+
+/* RESPONSIVE TABLETS */
+@media (max-width: 1015px) {
+  body {
+    width: 100%;
+  }
+  body .header2 i {
+    display: block;
+    font-size: 35px;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+  }
+  body .nav {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  body .nav li {
+    display: none;
+  }
+  body main .suscribe {
+    width: 100%;
+    margin: 0;
+    justify-content: space-evenly;
+  }
+  body main .suscribe .icon__suscribe {
+    margin: 0 20%;
+  }
+  body main .suscribe .suscribe__email {
+    margin: 1rem 20%;
+    height: auto;
+  }
+}
+/* RESPONSIVE MOVILES */
+@media (max-width: 550px) and (min-width: 50px) {
+  body .nav i {
+    display: block;
+    font-size: 35px;
+    margin-right: 1.5rem;
+  }
+  body main .banner {
+    justify-content: center;
+    width: 100%;
+  }
+  body main .banner .banner__text {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+  }
+  body main .banner .banner__text .text__banner {
+    width: 20rem;
+    font-size: 23px;
+  }
+  body main .proDestacados .titulo {
+    font-size: 30px;
+  }
+  body main .proDestacados .lista {
+    width: 90%;
+  }
+  body main .proDestacados .list-item {
+    margin: 2rem 1rem 0rem 0rem;
+    justify-content: center;
+  }
+  body main .proDestacados .list_link {
+    font-size: 13px;
+  }
+  body main .contacto {
+    width: 100%;
+  }
+  body main .contacto .form_contactos {
+    width: 100%;
+    text-align: center;
+  }
+  body main .contacto .form_contactos .input {
+    width: 19rem;
+  }
+  body main .contacto .form_contactos .btn__contacto {
+    width: 7rem;
+  }
+  body main .suscribe__email {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body main .input__suscribe {
+    width: 13rem;
+  }
+  body footer .container__footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  body footer .logo__footer {
+    margin-bottom: 1rem;
+  }
+  body footer .footer__copyrigth .text__footer {
+    font-size: 10px;
+  }
+  body footer .footer__copyrigth .iconos .resMov {
+    margin-left: 0.5rem;
+  }
+  body footer .footer__copyrigth .iconos .resMov i {
+    color: #f2f2f2;
+  }
+}/*# sourceMappingURL=style.css.map */
